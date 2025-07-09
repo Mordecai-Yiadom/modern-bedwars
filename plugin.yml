@@ -1,0 +1,17 @@
+main: com.krousant.modernbedwars.ModernBedWarsPlugin
+name: ModernBedWars
+version: '0.1.0'
+description: Modern BedWars plugin
+load: POSTWORLD
+api-version: '1.16.5'
+author: Krousant
+website: https://www.youtube.com/channel/UCUoLq_ba_y2TqOT3qJ__AGA/channels
+prefix: ModernBedWars
+commands:
+  manhunt:
+    description: Creates or removes Runner and Hunter Teams as well as lists all members of each team.
+    aliases:
+      - manhunt
+    permission: op
+    permission-message: Must be server operator to use this command!
+    usage: /<command> [start/end/list/reload]
