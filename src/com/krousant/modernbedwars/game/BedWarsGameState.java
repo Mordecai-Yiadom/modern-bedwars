@@ -1,5 +1,9 @@
 package com.krousant.modernbedwars.game;
 
-public class BedWarsGameState
+public enum BedWarsGameState
 {
+    QUEUING,
+    INITIALIZING,
+    RUNNING,
+    STOPPED
 }
