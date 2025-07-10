@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.LinkedList;
 
-public abstract class ItemSpawner
+public class ItemSpawner
 {
 
     private final LinkedList<SpawnableItem> SPAWNABLE_ITEMS = new LinkedList<>();
